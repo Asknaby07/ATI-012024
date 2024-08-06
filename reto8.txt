@@ -1,0 +1,8 @@
+*Docker run*
+
+docker run --hostname=0eb0d49b9fdb --mac-address=02:42:ac:11:00:03 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --network=bridge -p 8081:80 --restart=no --label='desktop.docker.io/wsl-distro=Ubuntu' --label='org.opencontainers.image.ref.name=ubuntu' --label='org.opencontainers.image.version=24.04' --runtime=runc -t -d Ubuntu
+
+
+
+URL: 
+http://localhost:8081/Laboratorio6/
